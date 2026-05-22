@@ -31,8 +31,18 @@ body {
   align-items: center;
 }
 
-.title > img, .btn-page > img {
+.btn-page > img {
+  margin: 10px 20px;
+  justify-self: right;
+}
+
+.title > h1 {
+  font-size: 1.5rem;
+}
+
+.title > img {
   margin: 10px;
+  height: 40px;
   justify-self: right;
 }
 
